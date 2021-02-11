@@ -4,7 +4,6 @@ import {Bar,Line,Poe} from 'react-chartjs-2';
 
 class Marcas extends Component {
     constructor(props){
-        // const [datostl, setEconomicActivities] = .useState([]);
         super(props);
         this.a();
         const data_=this.a();
