@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
-import Marcas from './services/prueba'
+import Marcas from './services/prueba';
+
 
 function App() {
   return (

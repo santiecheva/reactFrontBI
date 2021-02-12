@@ -64,10 +64,9 @@ class Marcas extends Component {
     render() {
         return (
             <>
-                {/* <input type="text" value={this.datainfo} /> */}
-                {console.log("Hola mundo ", this.datainfo)}
                 <center>
                     <div className="grafica">
+                        <h1>Web desplegada</h1>
                         <Bar
                             data={this.state.chatData}
                             options={{
