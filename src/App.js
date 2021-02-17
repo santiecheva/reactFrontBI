@@ -1,13 +1,24 @@
 import './App.css';
 import React from 'react';
 import Marcas from './services/prueba';
+import Login from './components/pages/login'
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Marcas/>
-    </div>
+    <>
+        <Router>
+        <Switch>
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/prueba" component={Marcas} />
+        </Switch>
+      </Router>
+      </>
   );
 }
 
