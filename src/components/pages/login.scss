@@ -8,16 +8,19 @@
 .p-content-image{
     width: 50%;
     height: 100%;
-    background-color: blue;
 }
 
 .p-content-button{
     width: 50%;
-    background-color: blueviolet;
 }
 
 .p-box-login{
-    background-color: brown;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
     text-align: center;
+    margin-top: 150px;
+}
+.p-parts-login{
+    margin-top: 30px;
 }

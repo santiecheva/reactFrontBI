@@ -15,11 +15,10 @@ function Login() {
         </div>
         <div className="p-content-button">
           <div className="p-box-login">
-            <div><Images Imagen={logo} /></div>
-            <div>Sistema de informes financieros</div>
-            <div>button</div>
+            <div className="p-parts-login"> <Images Imagen={logo} /> </div>
+            <div className="p-parts-login"> Sistema de informes financieros </div>
+            <div className="p-parts-login"> <BotonLogin /> </div>
           </div>
-          {/* <BotonLogin /> */}
         </div>
       </div>
     </>
