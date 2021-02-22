@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <a href="/login">login</a><br/>
-    <a href="/prueba">grafica</a> */}
+    <a href="/login">login</a><br/>
+    <a href="/prueba">grafica</a>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
