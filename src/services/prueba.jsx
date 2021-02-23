@@ -74,23 +74,12 @@ class Marcas extends Component {
                             }}
                         />
                     </div>
-                    <div>
-                    <button onclick="loginService()">
-                        Login with google
-                        </button>
-                    </div>
                 </center>
             </>
         )
     }
 
-    loginService() {
-        axios.post('localhost:3000')
-        .then(result => {
-            console.log('servicio delogin')
-        })
 
-    }
 
 }
 
