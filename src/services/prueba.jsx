@@ -66,7 +66,7 @@ class Marcas extends Component {
             <>
                 <center>
                     <div className="grafica">
-                        <h1>Web desplegada</h1>
+                        <h1>EL mejor Equipo del mundo mundial</h1>
                         <Bar
                             data={this.state.chatData}
                             options={{
