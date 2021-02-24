@@ -13,10 +13,12 @@ const Header = (Props) => {
                         Bienvenido al informe financiero de pragma
                 </div>
                 </div>
-                <div>
-                    Loguito
-                 </div>
             </div>
+                <div className="t-content-initials">
+                    <div className="initials">
+                    S'Z
+                    </div>
+                 </div>
         </div>
     );
 }
