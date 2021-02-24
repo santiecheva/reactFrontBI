@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { Bar, Line, Poe } from 'react-chartjs-2';
 import './prueba.css';
+import Aside from '../components/templates/aside/aside';
 
 class Marcas extends Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class Marcas extends Component {
 
         this.state = {
             chatData: {
-                labels: ['Familia', 'Pequeñin', 'Tena','Nosotras','SmartFit', 'Genfar S.A', 'Nutresa SAS', 'Almacenes Éxito'],
+                labels: ['Familia', 'Pequeñin', 'Tena', 'Nosotras', 'SmartFit', 'Genfar S.A', 'Nutresa SAS', 'Almacenes Éxito'],
                 datasets: [
                     {
                         label: ['Ingresos'],
@@ -63,7 +64,10 @@ class Marcas extends Component {
 
     render() {
         return (
-            <>
+            <div className="content-grafica">
+                <div className="s-content-aside">
+                    <Aside />
+                </div>
                 <center>
                     <div className="grafica">
                         <h1>Web desplegada</h1>
@@ -75,7 +79,8 @@ class Marcas extends Component {
                         />
                     </div>
                 </center>
-            </>
+                <a href="/login">salir</a>
+            </div>
         )
     }
 
