@@ -8,17 +8,20 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import PaginaPrueba from './components/pages/pagina/paginaDePrueba';
 
 function App() {
   return (
     <>
-        <Router>
+      <Router>
         <Switch>
+          <Route exact path="/" component={Login} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/prueba" component={Marcas} />
+          <Route exact path="/pagina" component={PaginaPrueba} />
         </Switch>
       </Router>
-      </>
+    </>
   );
 }
 
