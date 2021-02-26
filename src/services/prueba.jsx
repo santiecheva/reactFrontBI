@@ -88,7 +88,7 @@ class Marcas extends Component {
                 </center>
                     </div>
                 </div>
-                {/* <a href="/login">salir</a> */}
+                {/* <a href="/login">salir</a>  */}
             </div>
         )
     }
