@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "frontendpragmabidf66fac8": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

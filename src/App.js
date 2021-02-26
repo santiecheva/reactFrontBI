@@ -3,6 +3,7 @@ import React from 'react';
 import Marcas from './services/prueba';
 import Login from './components/pages/login';
 import Amplify, { Auth } from 'aws-amplify';
+import awsconfig from './aws-exports';
 
 import {
   BrowserRouter as Router,
@@ -11,9 +12,8 @@ import {
 } from "react-router-dom";
 import PaginaPrueba from './components/pages/pagina/paginaDePrueba';
 
-Amplify.configure({
-  region: 'xx-xxxxx-x',
-})
+//Amplify.configure(awsconfig);
+
 
 function App() {
   return (
