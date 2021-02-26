@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Bar, Line, Poe } from 'react-chartjs-2';
 import './prueba.css';
 import Aside from '../components/templates/aside/aside';
+import Header from '../components/templates/header/header';
 
 class Marcas extends Component {
     constructor(props) {
@@ -68,7 +69,13 @@ class Marcas extends Component {
                 <div className="s-content-aside">
                     <Aside />
                 </div>
-                <center>
+
+                <div className="p-content-container">
+                    <div className="p-content-header">
+                        <Header/>
+                    </div>
+                    <div>
+                    <center>
                     <div className="grafica">
                         <h1>Web desplegada</h1>
                         <Bar
@@ -79,7 +86,9 @@ class Marcas extends Component {
                         />
                     </div>
                 </center>
-                <a href="/login">salir</a>
+                    </div>
+                </div>
+                {/* <a href="/login">salir</a> */}
             </div>
         )
     }
