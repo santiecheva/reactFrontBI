@@ -4,23 +4,29 @@ import LinkAside from '../../atoms/link-aside/linkAside';
 import './aside.scss';
 
 const Aside = (Props) => {
+    function mensaje(){
+        alert('En proceso');
+    }
     return (
         <div className="t-aside">
             <div>
-                <h1>Logo oendiente</h1>
+                <h1>Logo pendiente</h1>
             </div>
             <div className="t-dash-content">Dashboard
                 <hr />
             </div>
             <div className="t-content-items">
+                <NavLink exact activeClassName="active" to="/cargaArchivos">
+                    <LinkAside texto="Cargar archivos" />
+                </NavLink>
                 <NavLink exact activeClassName="active" to="/prueba">
                     <LinkAside texto="grafica" />
                 </NavLink>
-                <NavLink exact activeClassName="active" to="/pagina">
-                    <LinkAside texto="prueba" />
+                <NavLink exact activeClassName="active" onClick={mensaje} to="/">
+                    <LinkAside texto="Generar reportes"/>
                 </NavLink>
                 <NavLink exact activeClassName="active" to="/">
-                    <LinkAside texto="Este es el aside" />
+                    <LinkAside texto="Volver al login" />
                 </NavLink>
 
             </div>

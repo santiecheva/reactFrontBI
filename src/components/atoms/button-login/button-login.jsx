@@ -4,7 +4,7 @@ import './button-login.scss';
 function ButonLogin() {
   return (
       <>
-      <button>Ingresa con <b>G</b></button>
+      <button className="a-login-button">Ingresa con <b>G</b></button>
       </>
   );
 }
