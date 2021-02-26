@@ -17,7 +17,7 @@ function Login() {
           <div className="p-box-login">
             <div className="p-parts-login"> <Images Imagen={logo} /> </div>
             <div className="p-parts-login p-title-login"> Sistema de informes financieros </div>
-            <div className="p-parts-login"> <a href="prueba"><BotonLogin href="/prueba" /> </a></div>
+            <div className="p-parts-login"> <a href="prueba"><BotonLogin href="/cargaArchivos" /> </a></div>
           </div>
         </div>
       </div>
